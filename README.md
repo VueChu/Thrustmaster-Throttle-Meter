@@ -20,6 +20,8 @@ This program's purpose is to display the user's throttle values through a 12 LED
 - Thrustmaster TMX Pro Racing Pedals
 ### Diagram:
 ![here](https://github.com/VueChu/BrainMeter/blob/main/BrainMeter%20Diagram.png)
+![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Meter%20Configuration.jpg)
+![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Pedal%20Chip%20Config..jpg)
 ### ---ThrottleMeter Class---
 - ### Struct Node
 	- ```byte pinNumber```
