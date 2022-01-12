@@ -50,10 +50,10 @@ This program's purpose is to display the user's throttle values through a 12 LED
       - Default constructor that instantiates the Throttlemeter class.
 
 - ### FUNCTIONS
-  - ```void insertNode(int pinNumber, int value)```
+  - ```void insertNode(float thresholdValue, byte pinNumber)```
 
     - Creates a node and inserts it to the tail of the doubly linked list. Each node will represent an LED on the breadboard.
-	- Params: byte thresholdValue, float value
+	- Params: float thresholdValue, byte pinNumber
 	
   - ```void turnOn()```
   
@@ -74,10 +74,6 @@ This program's purpose is to display the user's throttle values through a 12 LED
 - ```Throttlemeter throttleMeter```
 
   - throttleMeter is an object of type Throttlemeter that will allow the meter to function.
-  
-- ```DoublyLinkedList brainMeter```
-
-  - brainMeter is an object of type DoublyLinkedList that will allow access, create, and modify the doubly linked list. 
 
 - ```float MAX_VOLTAGE ```
 
