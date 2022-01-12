@@ -53,7 +53,7 @@ public:
   }
 
   /**
-   * insert() will take in a thresholdValue and pinValue of type byte to create the node and insert it
+   * insertNode() will take in a thresholdValue and pinValue of type byte to create the node and insert it
    * at the end of the doubly linked list.
    */
   void insertNode(float thresholdValue, byte pinNumber)
