@@ -13,13 +13,15 @@ This program's purpose is to display the user's throttle values through a 12 LED
 ### Materials needed:
 - Arduino Uno or any board that can utilize Serial - 1 (Click [here](https://www.arduino.cc/reference/en/language/functions/communication/serial/) to check which type of Serial you would have to use for this program.)
 - Breadboard - 1
-- 150Ω resistors - 12
+- 150Ω resistors - 12 -- Note: You can use any resistor value that you want. I chose to go with 150 Ohms. 
 - LED - 12
 - Any USB that is compatible with your Arduino that can be connected to a computer.
 - A computer.
 - Thrustmaster TMX Pro Racing Pedals
 ### Diagram:
 ![here](https://github.com/VueChu/BrainMeter/blob/main/BrainMeter%20Diagram.png)
+- Do take note that the resistors are not the same values in the picture below as mentioned above in the "Materials needed" section.
+- I am limited on components and since the resistors aren't important but to protect my LEDs, that is all I need for functionality.
 ![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Meter%20Configuration.jpg)
 ![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Pedal%20Chip%20Config..jpg)
 ### ---ThrottleMeter Class---
