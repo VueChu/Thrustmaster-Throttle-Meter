@@ -20,8 +20,7 @@ This program's purpose is to display the user's throttle values through a 12 LED
 - Thrustmaster TMX Pro Racing Pedals
 ### Diagram:
 ![here](https://github.com/VueChu/BrainMeter/blob/main/BrainMeter%20Diagram.png)
-- Do take note that the resistors are not the same values in the picture below as mentioned above in the "Materials needed" section.
-- I am limited on components and since the resistors aren't important but to protect my LEDs, that is all I need for functionality.
+- Do take note that the resistors are not the same values in the picture below as mentioned above in the "Materials needed" section. I am limited on components and since these resistors aren't important but to protect my LEDs, that is all I need for functionality.
 ![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Meter%20Configuration.jpg)
 ![here](https://github.com/VueChu/Thrustmaster-Throttle-Meter/blob/main/Pedal%20Chip%20Config..jpg)
 ### ---ThrottleMeter Class---
